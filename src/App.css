@@ -1,0 +1,192 @@
+.App-header {
+  background-color: black;
+  padding: 0.8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.left-header>span {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.left-header a {
+  color: aliceblue;
+  padding-left: 2em;
+}
+
+.left-header a:link {
+  text-decoration: none;
+}
+
+header>a {
+  color: aliceblue;
+}
+
+header>a:link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* section1 */
+
+.current-meetup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5em;
+  background-color: lightgray;
+  padding: 0.5%;
+}
+
+.current-meetup .logo-meetup {
+  width: 30%;
+  margin: 1em;
+  height: 12em;
+  width: 10em;
+  background-color: darkgray;
+}
+
+.current-meetup .detail-meetup {
+  width: 70%;
+  padding: 0.5%;
+}
+
+.current-meetup .detail-meetup table td {
+  padding-bottom: 1em;
+}
+
+.current-meetup .detail-meetup table td:last-child {
+  padding-left: 2em;
+}
+
+.btn-joinus {
+  background: rgb(53, 47, 47);
+  border-style: none;
+  padding: 0.8em 2.5em;
+  color: white;
+  border-radius: 5%;
+  font-size: 1em;
+}
+/* Next meetup section */
+
+.next-meetup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5em 0 0.5em;
+}
+
+.next-meetup div{
+  background-color: lightgray;
+  margin-left: 1.2em;
+  padding-left: 1.5%;
+}
+
+.next-meetup div p {
+  font-weight: bold;
+}
+
+.next-meetup div p small {
+  font-weight: normal;
+  color: gray;
+}
+/* About Meetup */
+.about-meetup {
+  margin: 0 5em 0 0.5em;
+}
+
+.about-meetup div {
+  margin-left: 1.2em;
+}
+
+.about-meetup div p {
+  font-weight: bold;
+}
+
+/* Member */
+
+.members-meetup,.past-meetup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5em 0 0.5em;
+}
+
+.members-meetup div a, .past-meetup div a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Member list */
+.member-list {
+  margin: 0 5em 0 1.7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightgray;
+  padding: 1%;
+}
+
+.member-list .member-pic {
+  background-color: gray;
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 100%;
+}
+
+.member-list div:nth-child(2){
+  padding-left: 1.5%;
+  font-weight: bold;
+}
+
+.member-list div:last-child  {
+  padding-left: 3%;
+}
+
+.others-member {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+/* last meetup */
+.list-pastmeetup {
+  margin: 0 5em 0 1.7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4em;
+  border-bottom: 0.2em solid gray;
+}
+
+.detail-pastmeetup {
+  background-color: lightgray;
+  padding: 1%;
+}
+.detail-pastmeetup small {
+  color: gray;
+}
+
+.detail-pastmeetup button {
+  color: aliceblue;
+  background-color:gray;
+  border: none;
+  padding: 3% 5% 3% 5%;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 4%;
+}
